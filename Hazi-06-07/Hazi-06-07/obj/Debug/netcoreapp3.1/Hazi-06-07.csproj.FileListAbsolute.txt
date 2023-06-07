@@ -1,0 +1,14 @@
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.exe
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.deps.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.runtimeconfig.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.runtimeconfig.dev.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\bin\Debug\netcoreapp3.1\Hazi-06-07.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.csproj.AssemblyReference.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.AssemblyInfoInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.AssemblyInfo.cs
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.csproj.CoreCompileInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Hazi-06-07\Hazi-06-07\obj\Debug\netcoreapp3.1\Hazi-06-07.genruntimeconfig.cache
