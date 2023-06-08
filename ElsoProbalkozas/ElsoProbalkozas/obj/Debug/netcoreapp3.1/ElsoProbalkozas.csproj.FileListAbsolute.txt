@@ -1,0 +1,14 @@
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.exe
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.deps.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.runtimeconfig.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.runtimeconfig.dev.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\bin\Debug\netcoreapp3.1\ElsoProbalkozas.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.csproj.AssemblyReference.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.AssemblyInfoInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.AssemblyInfo.cs
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.csproj.CoreCompileInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\ElsoProbalkozas\ElsoProbalkozas\obj\Debug\netcoreapp3.1\ElsoProbalkozas.genruntimeconfig.cache

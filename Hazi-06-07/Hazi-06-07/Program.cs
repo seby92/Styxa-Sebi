@@ -1,36 +1,104 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace Hazi_06_07
+namespace HelloWorld
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var studentNames = new List<string>();
-            var studentNotes = new List<int>();
+            string nev;
+            string cnp;
+            string szuletesiHonap;
 
-            bool nextStudent = true;
+            nev = ReadFromInput("Add meg a neved: ");
+            cnp = ReadFromInput("Add meg a cnp-d: ");
+            szuletesiHonap = ReadFromInput("Add meg a szuletesi honapod: ");
 
-            while (nextStudent)
-            {
-                Console.Write("Add meg a nevet: ");
-                string name = Console.ReadLine();
-                studentNames.Add(name);
+            Console.WriteLine("A neved: " + nev);
+            Console.WriteLine($"A cnp-d: {cnp}");
+            Console.WriteLine($"A szuletesi honapod: {1} {2} {3} {4} {5} {6} {7}", szuletesiHonap, "Januar", "Februar", "Marcius", "Majus", "Junius", "Julius");
 
-                Console.Write("Add meg a jegyet: ");
-                int note = int.Parse(Console.ReadLine());
-                studentNotes.Add(note);
+            //switch (szuletesiHonap)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Januar");
+            //        break;
+            //    case "2":
+            //        Console.WriteLine("februar");
+            //        break;
+            //}
+            //Console.WriteLine(szuletesiHonap);
 
-                Console.Write("Lesz uj diak? y/n: ");
-                nextStudent = Console.ReadLine() == "y";
-            }
 
-            for (int i = 0; i < studentNames.Count; i++)
-            {
-                Console.WriteLine($"Nev: {studentNames[i]}; Jegy: {studentNotes[i]}");
-            }
+            // Ezt a kod reszletet itt hagyom ki-kommentelve, 
+            // hogy legyen meg a pelda, hogy hogy epitettuk fel a programot lepesenkent
 
+
+            //nev = ReadFromInput("Add meg a neved!");
+
+            //while (nev == "")
+            //{
+            //    Console.WriteLine("Add meg a neved!");
+            //    nev = Console.ReadLine();
+            //}
+
+            //Console.WriteLine("Add meg a cnp-d!");
+            //cnp = Console.ReadLine();
+
+            //if (cnp == "")
+            //{
+            //    Console.WriteLine("Add meg a cnp-d!");
+            //    cnp = Console.ReadLine();
+            //} else
+            //{
+            //    Console.WriteLine("Ugyes vagy!");
+            //}
+
+            //Console.WriteLine("Add meg a szuletesi honapod!");
+            //szuletesiHonap = Console.ReadLine();
+
+            //if (szuletesiHonap == "") 
+            //{
+            //    Console.WriteLine("Add meg a szuletesi honapod!");
+            //    szuletesiHonap = Console.ReadLine();
+            //}
+
+            //if (szuletesiHonap == "januar")
+            //{
+            //    Console.WriteLine("Horoszkop 1");
+            //}
+
+            //if (szuletesiHonap == "februar")
+            //{
+            //    Console.WriteLine("Horoszkop 1");
+            //}
+
+            //switch (szuletesiHonap)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Januar");
+            //        break;
+            //    case "2":
+            //        Console.WriteLine("februar");
+            //        break;
+            //}
+
+            //Console.WriteLine(nev);
+            //Console.WriteLine(cnp);
+            //Console.WriteLine(szuletesiHonap);
         }
+
+        static string ReadFromInput(string text)
+        {
+            string input;
+            do
+            {
+                Console.Write(text);
+                input = Console.ReadLine();
+            } while (input == "");
+
+            return input;
+        }
+
     }
 }
