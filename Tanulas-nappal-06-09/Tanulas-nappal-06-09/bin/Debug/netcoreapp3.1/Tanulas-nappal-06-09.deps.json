@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tanulas-nappal-06-09/1.0.0": {
+        "runtime": {
+          "Tanulas-nappal-06-09.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tanulas-nappal-06-09/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

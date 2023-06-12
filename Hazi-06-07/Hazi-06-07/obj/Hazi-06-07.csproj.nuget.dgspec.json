@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj": {}
+    "C:\\Users\\seby9\\Source\\Repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj": {
+    "C:\\Users\\seby9\\Source\\Repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj",
+        "projectUniqueName": "C:\\Users\\seby9\\Source\\Repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj",
         "projectName": "Hazi-06-07",
-        "projectPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj",
+        "projectPath": "C:\\Users\\seby9\\Source\\Repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\Hazi-06-07.csproj",
         "packagesPath": "C:\\Users\\seby9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\obj\\",
+        "outputPath": "C:\\Users\\seby9\\Source\\Repos\\seby92\\Styxa-Sebi\\Hazi-06-07\\Hazi-06-07\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seby9\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,14 @@
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.exe
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.deps.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.runtimeconfig.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.runtimeconfig.dev.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\bin\Debug\netcoreapp3.1\Tanulas-nappal-06-09.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.csproj.AssemblyReference.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.AssemblyInfoInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.AssemblyInfo.cs
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.csproj.CoreCompileInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Tanulas-nappal-06-09\Tanulas-nappal-06-09\obj\Debug\netcoreapp3.1\Tanulas-nappal-06-09.genruntimeconfig.cache
