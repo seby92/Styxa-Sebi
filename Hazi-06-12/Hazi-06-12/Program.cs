@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Cars;
+using System;
 
-namespace Hazi_06_12
+namespace Cars
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car Fiat = new Car("Punto", "grey", 2001);
+             
+            Car Ford = new Car("Fusion", "red", 2005);
+
+            
+            
         }
     }
+
 }

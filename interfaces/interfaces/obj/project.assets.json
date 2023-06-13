@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-12\\Hazi-06-12\\Cars.csproj",
-      "projectName": "Cars",
-      "projectPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-12\\Hazi-06-12\\Cars.csproj",
+      "projectUniqueName": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\interfaces\\interfaces\\interfaces.csproj",
+      "projectName": "interfaces",
+      "projectPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\interfaces\\interfaces\\interfaces.csproj",
       "packagesPath": "C:\\Users\\seby9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\Hazi-06-12\\Hazi-06-12\\obj\\",
+      "outputPath": "C:\\Users\\seby9\\source\\repos\\seby92\\Styxa-Sebi\\interfaces\\interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\seby9\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,14 @@
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.exe
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.deps.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.runtimeconfig.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.runtimeconfig.dev.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\bin\Debug\netcoreapp3.1\interfaces.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.csproj.AssemblyReference.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.AssemblyInfoInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.AssemblyInfo.cs
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.csproj.CoreCompileInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\interfaces\interfaces\obj\Debug\netcoreapp3.1\interfaces.genruntimeconfig.cache
