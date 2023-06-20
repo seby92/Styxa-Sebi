@@ -1,0 +1,14 @@
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.exe
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.deps.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.runtimeconfig.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.runtimeconfig.dev.json
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\bin\Debug\netcoreapp3.1\Megforditas.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.csproj.AssemblyReference.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.AssemblyInfoInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.AssemblyInfo.cs
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.csproj.CoreCompileInputs.cache
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.dll
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.pdb
+C:\Users\seby9\source\repos\seby92\Styxa-Sebi\Megforditas\Megforditas\obj\Debug\netcoreapp3.1\Megforditas.genruntimeconfig.cache

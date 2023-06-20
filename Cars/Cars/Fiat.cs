@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cars
 {
-    internal class Fiat : Cars, ICar
+    public class Fiat : Cars, ICar
     {
         public Fiat(string Name, string Color, int Age) { }
         //public string Name { get; set; }

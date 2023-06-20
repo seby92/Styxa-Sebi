@@ -4,10 +4,25 @@ using System.Text;
 
 namespace Cars
 {
-    internal class Cars : ICar
+    public abstract class Cars : ICar
     {
         public string Name { get; set; }
         public string Color { get; set; }
         public int Age { get; set; }
+
+        public void door()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void wheels()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void window()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
