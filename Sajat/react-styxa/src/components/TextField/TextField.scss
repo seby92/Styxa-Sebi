@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+.text-field {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid $color-grey;
+
+  &:focus {
+    border: 1px solid $color-green;
+  }
+}

@@ -1,6 +1,9 @@
+using CityInfo.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,8 +27,20 @@ namespace CityInfo
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddControllers();
-      services.AddMvc();
+      //services.AddControllers();
+      //services.AddMvc();
+      services.AddMvc()
+            .AddMvcOptions(options =>
+            {
+              options.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
+            });
+
+      services.AddDbContext<CityInfoContext>(o =>
+      {
+        o.UseSqlServer("Server=(local);Database=CityInfoDB;Trusted_Connection=True;");
+      });
+
+      services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Hazi-06-07",
-    "\\Hazi-06-07\\Hazi-06-07"
+    "\\CityInfo",
+    "\\CityInfo\\CityInfo",
+    "\\CityInfo\\CityInfo\\Controllers"
   ],
+  "SelectedNode": "\\CityInfo\\CityInfo\\Controllers\\PointsOfInterestController.cs",
   "PreviewInSolutionExplorer": false
 }
