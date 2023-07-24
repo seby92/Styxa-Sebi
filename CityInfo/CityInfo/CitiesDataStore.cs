@@ -1,17 +1,18 @@
 ﻿using CityInfo.Models;
 using System.Collections.Generic;
+using System.Security.Policy;
 
 namespace CityInfo
 {
-  public class CitiesDataStore
-  {
-    public static CitiesDataStore Current { get; } = new CitiesDataStore();
-     public List<CityDto> Cities { get; set; }
-
-    public CitiesDataStore()
+    public class CitiesDataStore
     {
-      // init dummy data
-      Cities = new List<CityDto>()
+        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        public List<CityDto> Cities { get; set; }
+
+        public CitiesDataStore()
+        {
+            // init dummy data
+            Cities = new List<CityDto>()
             {
                 new CityDto()
                 {
@@ -65,7 +66,7 @@ namespace CityInfo
                      }
                 }
             };
-    }
+        }
 
-  }
+    }
 }

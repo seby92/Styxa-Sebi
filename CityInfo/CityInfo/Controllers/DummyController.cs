@@ -6,16 +6,16 @@ using System;
 [Route("api/testdatabase")]
 public class DummyController : ControllerBase
 {
-  private readonly CityInfoContext _ctx;
+    private readonly CityInfoContext _ctx;
 
-  public DummyController(CityInfoContext ctx)
-  {
-    _ctx = ctx ?? throw new ArgumentNullException(nameof(ctx));
-  }
+    public DummyController(CityInfoContext ctx)
+    {
+        _ctx = ctx ?? throw new ArgumentNullException(nameof(ctx));
+    }
 
-  [HttpGet]
-  public IActionResult TestDatabase()
-  {
-    return Ok(_ctx.Cities);
-  }
+    [HttpGet]
+    public IActionResult TestDatabase()
+    {
+        return Ok(_ctx.Cities);
+    }
 }

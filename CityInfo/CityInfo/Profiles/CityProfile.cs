@@ -4,13 +4,13 @@ using CityInfo.Models;
 
 namespace CityInfo.Profiles
 {
-  public class CityProfile : Profile
-  {
-    public CityProfile()
+    public class CityProfile : Profile
     {
-      CreateMap<City,CityDto>()
-        .ForMember(dest => dest.PoiNumber, opt => opt.MapFrom(src => src.Population));
-      CreateMap<CityDto,City>();
+        public CityProfile()
+        {
+            CreateMap<City, CityDto>()
+              .ForMember(dest => dest.PoiNumber, opt => opt.MapFrom(src => src.Population));
+            CreateMap<CityDto, City>();
+        }
     }
-  }
 }
