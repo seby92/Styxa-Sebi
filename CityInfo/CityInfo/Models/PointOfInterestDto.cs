@@ -11,13 +11,15 @@ namespace CityInfo.Models
         [Required(ErrorMessage = "The Description field is required, please provide it!")]
         public string Description { get; set; }
         public string GoogleMapsUrl { get; set; }
+        public int CityId { get; set; }
         public PointOfInterestDto() { }
-        public PointOfInterestDto(int id, string name, string description, string googleMapsUrl)
+        public PointOfInterestDto(int id, string name, string description, string googleMapsUrl, int cityId)
         {
             Id = id;
             Name = name;
             Description = description;
             GoogleMapsUrl = googleMapsUrl;
+            CityId = cityId;
         }
 
     }

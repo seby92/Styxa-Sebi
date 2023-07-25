@@ -1,40 +1,62 @@
-﻿using CityInfo.Entities;
+﻿using AutoMapper;
+using CityInfo.Contexts;
+using CityInfo.Entities;
 using CityInfo.Models;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CityInfo.Controllers
 {
     [ApiController]
-    [Route("api/cities/{cityId}/pointsOfInterest")]
+    [Route("api/cities/{cityId}/pointsofinterest")]
     public class PointsOfInterestsController : Controller
     {
-        [HttpGet]
-        public IActionResult GetPointOfInterests(int cityId)
+        private readonly CityInfoContext _ctx;
+        private readonly IMapper _mapper;
+
+        public PointsOfInterestsController(CityInfoContext ctx, IMapper mapper)
         {
-            CityDto city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == cityId);
-
-            if (city == null)
-            {
-                return BadRequest();
-            }
-
-            return Ok(city.PointsOfInterest);
+            _ctx = ctx ?? throw new ArgumentNullException(nameof(ctx));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         [HttpGet]
-        [Route("{id}")]
-        public IActionResult GetPointOfInterest(int cityId, int id)
+        [Route("")]
+        public IActionResult GetPointsOfInterest(int cityId)
         {
-            CityDto city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == cityId);
+            List<PointOfInterest> pointsOfInterestEntitiesList = _ctx.PointsOfInterest.Where(x => x.CityId == cityId).ToList();
 
-            if (city == null)
-            {
-                return BadRequest();
-            }
+            List<PointOfInterestDto> pointsOfInterestResponsesList = _mapper.Map<List<PointOfInterestDto>>(pointsOfInterestEntitiesList);
+             
 
-            return Ok(city.PointsOfInterest.FirstOrDefault(x => x.Id == id));
+            return Ok(pointsOfInterestResponsesList);
+
+            //var pointsOfInterest = _ctx.PointsOfInterest;
+            //PointOfInterest pointsOfInterestEntitiesList = pointsOfInterest.Where(x => x.Id == id).FirstOrDefault();
+
+            //if (pointsOfInterestEntitiesList == null)
+            //{
+            //    return NotFound(pointsOfInterestEntitiesList);
+            //}
+
+            //return Ok(pointsOfInterestEntitiesList);
         }
+
+        //[HttpGet]
+        //[Route("{id}")]
+        //public IActionResult GetPointOfInterest(int cityId, int id)
+        //{
+        //    CityDto city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == cityId);
+
+        //    if (city == null)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    return Ok(city.PointsOfInterest.FirstOrDefault(x => x.Id == id));
+        //}
 
         [HttpPost]
         public IActionResult CreatePointOfInterest(int cityId, [FromBody] PointOfInterestDto poi)
@@ -87,21 +109,21 @@ namespace CityInfo.Controllers
             return Ok(city.PointsOfInterest);
         }
 
-        [HttpDelete]
-        [Route("{id}")]
-        public IActionResult DeletePoi(int cityId, int id, [FromBody] PointOfInterestDto pointOfInterest)
-        {
-            CityDto city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == cityId);
+        //[HttpDelete]
+        //[Route("{id}")]
+        //public IActionResult DeletePoi(int cityId, int id, [FromBody] PointOfInterestDto pointOfInterest)
+        //{
+        //    CityDto city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == cityId);
 
-            if (city == null)
-            {
-                return BadRequest();
-            }
-            var poi = city.PointsOfInterest.FirstOrDefault(x => x.Id == id);
+        //    if (city == null)
+        //    {
+        //        return BadRequest();
+        //    }
+        //    var poi = city.PointsOfInterest.FirstOrDefault(x => x.Id == id);
 
-            city.Remove(poi); // itt nem tudom, hogy mit kell csinalni
+        //    city.Remove(poi); // itt nem tudom, hogy mit kell csinalni
 
-            return new JsonResult(city);
-        }
+        //    return new JsonResult(city);
+        //}
     }
 }
