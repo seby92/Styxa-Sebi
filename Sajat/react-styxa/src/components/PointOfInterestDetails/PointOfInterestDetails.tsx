@@ -1,17 +1,19 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchWrapper } from "../../services/fetchWrapper";
-import { PointOfInterest } from "../../pages/PointsOfInterest";
+import { PointsOfInterestinterface } from "../../pages/PointsOfInterest";
 
 
 const PointOfInterestDetails = () => {
-    const [pointOfInterest, setpointOfInterest] = useState<PointOfInterest>({} as PointOfInterest);
+    const [pointsOfInterest, setPointsOfInterest] = useState<PointsOfInterestinterface[]>([])
     const { cityId } = useParams();
 
     const getPointOfInterest = async () => {
         await fetchWrapper.get(`/cities/${cityId}/pointsofinterest`).then((data) => {
-            setpointOfInterest(data);
+            setPointsOfInterest(data);
+            // console.log("poidata", data);
         });
+
     };
 
     useEffect(() => {
@@ -19,10 +21,16 @@ const PointOfInterestDetails = () => {
     }, []);
 
     return (
-        <div>
-            <h1>{pointOfInterest.name}</h1>
-        </div>
-    );
+        pointsOfInterest.map(poi => {
+            return (
+                <>
+                    <h1>{poi.name}</h1>
+                    <p>{poi.description}</p>
+                    <a href={poi.googleMapsUrl}>Location</a>
+                </>
+            )
+        })
+    )
 };
 
 export default PointOfInterestDetails;

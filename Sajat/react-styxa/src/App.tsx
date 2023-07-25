@@ -10,7 +10,8 @@ import Layout from "./components/Layout/Layout";
 // import { useState } from "react";
 // import Button from "./components/Button/Button";
 import Login from "./pages/Login";
-import Guard from "./framework/Guard";
+// import Guard from "./framework/Guard";
+import PointsOfInterest from "./pages/PointsOfInterest";
 
 const App = () => {
   // const [isAuth, setIsAuth] = useState<boolean>(false);
@@ -30,6 +31,7 @@ const App = () => {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/cities/:cityId?/pointsofinterest" element={<PointsOfInterest />} />
         </Route>
       </Routes>
     </BrowserRouter>
